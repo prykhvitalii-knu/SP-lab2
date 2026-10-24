@@ -1,24 +1,24 @@
-# started on Sat Oct 24 14:15:51 2026
+# started on Sat Oct 24 15:13:27 2026
 
 
  Performance counter stats for './prog_unopt':
 
-          5,319.42 msec task-clock                       #    1.000 CPUs utilized             
-                37      context-switches                 #    6.956 /sec                      
-                 1      cpu-migrations                   #    0.188 /sec                      
-           586,053      page-faults                      #  110.172 K/sec                     
-    12,322,328,681      cycles                           #    2.316 GHz                       
-    19,933,207,927      instructions                     #    1.62  insn per cycle            
+          5,391.67 msec task-clock                       #    0.999 CPUs utilized             
+               165      context-switches                 #   30.603 /sec                      
+                 1      cpu-migrations                   #    0.185 /sec                      
+           586,052      page-faults                      #  108.696 K/sec                     
+    12,302,055,761      cycles                           #    2.282 GHz                       
+    19,933,391,464      instructions                     #    1.62  insn per cycle            
    <not supported>      branches                                                              
-         2,599,415      branch-misses                                                         
-    10,761,039,464      L1-dcache-loads                  #    2.023 G/sec                     
-        71,745,606      L1-dcache-load-misses            #    0.67% of all L1-dcache accesses 
-        82,349,584      LLC-loads                        #   15.481 M/sec                     
-        76,959,302      LLC-load-misses                  #   93.45% of all LL-cache accesses  
+         2,127,051      branch-misses                                                         
+    10,760,173,979      L1-dcache-loads                  #    1.996 G/sec                     
+        71,757,350      L1-dcache-load-misses            #    0.67% of all L1-dcache accesses 
+        82,781,310      LLC-loads                        #   15.354 M/sec                     
+        77,290,423      LLC-load-misses                  #   93.37% of all LL-cache accesses  
 
-       5.321920205 seconds time elapsed
+       5.395284009 seconds time elapsed
 
-       4.254436000 seconds user
-       1.066943000 seconds sys
+       4.274018000 seconds user
+       1.119306000 seconds sys
 
 

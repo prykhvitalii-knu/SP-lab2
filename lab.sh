@@ -18,7 +18,7 @@ run_analysis() {
     
     # 1. Замір часу та пам'яті
     echo "[1/3] Running /usr/bin/time..."
-    /usr/bin/time -v ./$PROG > time_$NAME.txt 2>&1
+    time ./$PROG > time_$NAME.txt 2>&1
     
     # 2. Апаратні лічильники (без x86 power/energy-pkg)
     echo "[2/3] Running perf stat..."
