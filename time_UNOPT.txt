@@ -1,3 +1,0 @@
-Starting computation...
-Time: 1.575 s
-Control sum: 3.92
