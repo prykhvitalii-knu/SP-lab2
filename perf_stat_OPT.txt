@@ -1,0 +1,24 @@
+# started on Sat Oct 24 14:16:03 2026
+
+
+ Performance counter stats for './prog_opt':
+
+          1,329.36 msec task-clock                       #    0.998 CPUs utilized             
+                43      context-switches                 #   32.347 /sec                      
+                 1      cpu-migrations                   #    0.752 /sec                      
+           586,052      page-faults                      #  440.854 K/sec                     
+     3,031,524,672      cycles                           #    2.280 GHz                       
+     4,272,488,685      instructions                     #    1.41  insn per cycle            
+   <not supported>      branches                                                              
+         2,224,657      branch-misses                                                         
+     1,191,574,664      L1-dcache-loads                  #  896.355 M/sec                     
+        45,243,954      L1-dcache-load-misses            #    3.80% of all L1-dcache accesses 
+        69,226,864      LLC-loads                        #   52.076 M/sec                     
+        64,584,222      LLC-load-misses                  #   93.29% of all LL-cache accesses  
+
+       1.331759026 seconds time elapsed
+
+       0.250233000 seconds user
+       1.081010000 seconds sys
+
+
